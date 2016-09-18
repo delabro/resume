@@ -1,0 +1,169 @@
+body {
+    background: #E5E5E5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 50;
+    line-height: 1.5em;
+    margin: 0;
+    font-size: 16px
+}
+
+.innerbullets {
+    padding-left: 1em;
+}
+
+.wrapper {
+    background: white;
+    font-size: .8em;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main {
+    width: 60%;
+    padding: 1em 1em;
+    box-sizing: border-box;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-right: 1em;
+    margin: 0 auto;
+}
+
+.secondary {
+    width: 37%;
+    background: #F4AE7A;
+    box-sizing: border-box;
+}
+
+.secondarytext {
+    padding: .1em 1em;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.5em;
+    text-align: center;
+    padding-top: .5em;
+}
+
+h2 {
+    font-size: 17px;
+}
+
+h1 {
+    font-size: 29px;
+}
+
+header {
+    background: black;
+    margin: 0 auto;
+    padding-bottom: .1em;
+    padding-top: .1em;
+}
+
+header p,
+header h1 {
+    color: white;
+    text-align: center;
+}
+
+.wx {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.personal-note {
+    padding-bottom: 2em;
+}
+
+.study-and-education {
+    padding-top: 2em;
+}
+
+
+/*.innerfooter{
+    max-width: 40%;
+    margin: 0 auto;
+    display:flex;
+}
+*/
+
+footer {
+    background: black;
+    margin: 0 auto;
+    padding-top: .1em;
+    padding-bottom: .1em;
+    color: white;
+    text-align: center;
+}
+
+
+/*Media Queries*/
+
+@media screen and (min-width: 600px) {
+    header,
+    .wrapper,
+    footer {
+        max-width: 50%;
+    }
+    body {
+        font-size: 18px;
+    }
+    footer {
+        display: flex;
+        justify-content: space-around;
+    }
+    footer h4 {
+        width: 25%;
+    }
+    header {
+        padding-bottom: 4em;
+        padding-top: 4em;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .personal-note {
+        padding-bottom: 0;
+    }
+    .study-and-education {
+        padding-top: 0;
+    }
+}
+
+
+/*bullet points*/
+
+.bullet {
+    height: 15px;
+    width: 15px;
+    background: url(squarebullet.png);
+    display: inline-block;
+    margin: 1em .3em -.1em 0em;
+}
+
+.bulletpoints {
+    padding-left: 0em;
+    list-style: none;
+}
+
+.innerbullets {
+    list-style: none;
+}
+
+.minbullet {
+    height: 15px;
+    width: 15px;
+    background: url(squarebulletmini.png);
+    display: inline-block;
+    margin: 1em .3em -.1em 0em;
+}
